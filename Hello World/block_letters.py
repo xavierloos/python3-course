@@ -41,6 +41,7 @@ J  J
 J  J
 JJ
 """
+
 second_initial = """
 L
 L
