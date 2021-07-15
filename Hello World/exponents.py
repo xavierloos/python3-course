@@ -2,6 +2,7 @@
 
 # 2. Your 6x6 quilts have taken off so well, 6 people have each requested 6 quilts. Print out how many tiles you would need to make 6 quilts apiece for 6 people.
 
+
 # Calculation of squares for:
 # 6x6 quilt
 print(6 * 6)
