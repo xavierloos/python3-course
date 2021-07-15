@@ -7,7 +7,6 @@
 # greeting_with_name
 
 # Assign values to each using your knowledge of division and concatenation!
-
 my_age = 28
 half_my_age = 28/2
 greeting = "Buenos Dias, "
