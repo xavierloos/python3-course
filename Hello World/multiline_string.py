@@ -13,5 +13,4 @@ Stranger, if you passing meet me and desire to speak to me, why
 And why should I not speak to you?
 """
 
-
 print(to_you)
