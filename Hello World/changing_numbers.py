@@ -5,6 +5,7 @@
 # 3. It turns out that quilt required a little more material than you have on hand! Let’s only make the quilt 8 squares long. How many squares will you need for this quilt instead?
 
 quilt_width = 8
+
 quilt_length = 8
 
 #prints number of squares to make a quilt
