@@ -16,5 +16,5 @@ print(meal)
 meal = "Ramen"
 
 # Printing out dinner
-print("Dinner:")
+print("Dinner: ")
 print(meal)
