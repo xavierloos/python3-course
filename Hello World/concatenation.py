@@ -11,5 +11,4 @@ string6 = "from which it wafted the most delightful scent of flowers and hay."
 
 # Define message below:
 message = string1 + string2 + string3 + string4 + string5 + string6
-
 print(message)
