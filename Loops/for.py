@@ -6,12 +6,22 @@
 
 # 3.Write a for loop that prints each sport in the list sport_games.
 
-board_games = ["Settlers of Catan", "Carcassone", "Power Grid", "Agricola", "Scrabble"]
+board_games = ["Settlers of Catan", "Carcassone",
+               "Power Grid", "Agricola", "Scrabble"]
 
 sport_games = ["football", "hockey", "baseball", "cricket"]
 
 for game in board_games:
-  print(game)
+    print(game)
 
 for game in sport_games:
-  print(game)
+    print(game)
+
+# For Loops: Using Range
+
+# 1.Use the range() function in a for loop to print() out the provided promise variable five times.
+
+promise = "I will finish the python loops module!"
+
+for i in range(5):
+    print(promise)
