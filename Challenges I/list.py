@@ -66,12 +66,35 @@ print(larger_list([4, 10, 2, 5], [-10, 2, 5, 10]))
 # Count the number of occurrences of item (the second parameter) in lst (the first parameter)
 # If the number of occurrences is greater than n (the third parameter), return True. Otherwise, return False
 
-#Write your function here
-def more_than_n(lst, item, n):
-  if lst.count(item) > n:
-    return True
-  else:
-    return False
+# Write your function here
 
-#Uncomment the line below when your function is done
+
+def more_than_n(lst, item, n):
+    if lst.count(item) > n:
+        return True
+    else:
+        return False
+
+
+# Uncomment the line below when your function is done
 print(more_than_n([2, 4, 6, 2, 3, 2, 1, 2], 2, 3))
+
+# 5. Combine Sort
+# Finally, let’s create a function that combines two different lists together and then sorts them. To do this we can combine the lists with an operation and then sort using a function call. Here are the steps we need to use:
+
+# Define the function to accept two parameters, one for each list.
+# Combine the two lists together
+# Sort the result
+# Return the sorted and combined list
+
+# Write your function here
+
+
+def combine_sort(lst1, lst2):
+    new_list = lst1 + lst2
+    new_list.sort()
+    return new_list
+
+
+# Uncomment the line below when your function is done
+print(combine_sort([4, 10, 2, 5], [-10, 2, 5, 10]))
