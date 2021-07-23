@@ -18,3 +18,25 @@ def divisible_by_ten(nums):
 
 # Uncomment the line below when your function is done
 print(divisible_by_ten([20, 25, 30, 35, 40]))
+
+# 2. Greetings
+# You are invited to a social gathering, but you are tired of greeting everyone there. Luckily we can create a function to accomplish this task for us. In this challenge, we will take a list of names and prepend the string 'Hello, ' before each name. This will require a few steps:
+
+# Define the function to accept a list of strings as a single parameter called names
+# Create a new list of strings
+# Loop through each name in names
+# Within the loop, concatenate 'Hello, ' and the current name together and append this new string to the new list of strings
+# Afterwards, return the new list of strings
+
+# Write your function here
+
+
+def add_greetings(names):
+    greetings = []
+    for name in names:
+        greetings.append(("Hello, " + name))
+    return greetings
+
+
+# Uncomment the line below when your function is done
+print(add_greetings(["Owen", "Max", "Sophie"]))
