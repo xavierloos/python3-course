@@ -98,3 +98,22 @@ def combine_sort(lst1, lst2):
 
 # Uncomment the line below when your function is done
 print(combine_sort([4, 10, 2, 5], [-10, 2, 5, 10]))
+
+
+# LIST ADVANCED
+# 1. Every Three Numbers
+# Let’s start our challenging problems with a function that creates a list of numbers up to 100 in increments of 3 starting from a number that is passed to the function as an input parameter. Here is what we need to do:
+
+# Define the function to accept one parameter for our starting number
+# Calculate the numbers between the starting number and 100 while incrementing by 3
+# Store the numbers in a list
+# Return the list
+
+# Write your function here
+def every_three_nums(start):
+    lst = range(start, 101, 3)
+    return list(lst)
+
+
+# Uncomment the line below when your function is done
+print(every_three_nums(91))
