@@ -215,7 +215,6 @@ print(same_values([5, 1, -10, 3, 3], [5, 10, -10, 3, 5]))
 
 # Write your function here
 
-
 def reversed_list(lst1, lst2):
     if lst1 == lst2[::-1]:
         return True
