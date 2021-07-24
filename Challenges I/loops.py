@@ -213,7 +213,8 @@ print(same_values([5, 1, -10, 3, 3], [5, 10, -10, 3, 5]))
 # Within the loop, compare the element in the first list at the current index against the element at the second list’s last index minus the current index. If there was a mismatch, then the lists aren’t reversed and we can return False
 # If the loop ended successfully, then we know the lists are reversed and we can return True.
 
-# Write your function here
+# Write your function here]
+
 
 def reversed_list(lst1, lst2):
     if lst1 == lst2[::-1]:
