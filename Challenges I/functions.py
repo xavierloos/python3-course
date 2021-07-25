@@ -80,3 +80,25 @@ print(average(1, 100))
 # The average of 1 and 100 is 50.5
 print(average(1, -1))
 # The average of 1 and -1 is 0
+
+# 5. Remainder
+# For the final challenge in this group, we are going to take the remainder of two numbers while performing other mathematical operations on them. We are going to multiply the numerator by 2 and divide the denominator by 2. After the two values have been modified, we will divide them and return the remainder. In order to do this we will need to:
+
+# Define the function to accept two parameters
+# Multiply the first input value by 2
+# Divide the second input value by 2
+# Calculate the remainder of the modified first input value divided by the modified second input value (using modulus)
+# Return the answer
+
+# Write your remainder function here:
+
+
+def remainder(num1, num2):
+    return (num1 + num1) % (num2 / 2)
+
+
+# Uncomment these function calls to test your remainder function:
+print(remainder(15, 14))
+# should print 2
+print(remainder(9, 6))
+# should print 0
