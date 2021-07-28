@@ -16,7 +16,6 @@
 # 7.Iterate through highlighted_poems_stripped and split each string around the : characters and append the new lists into highlighted_poems_details.
 # 8.Great! Now we want to separate out all of the titles, the poets, and the publication dates into their own lists.
 # Create three new empty lists, titles, poets, and dates.
-
 # 9.Iterate through highlighted_poems_details and for each list in the list append the appropriate elements into the lists titles, poets, and dates.
 # For example, for the poem The Shadow (1915) by William Carlos Williams your code should be adding "The Shadow" to titles, "William Carlos Williams" to poets, and "1915" to dates.
 
