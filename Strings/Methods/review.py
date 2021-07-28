@@ -14,6 +14,7 @@
 # 6.Next we want to break up all the information for each poem into it’s own list, so we end up with a list of lists.
 # Create a new empty list called highlighted_poems_details.
 # 7.Iterate through highlighted_poems_stripped and split each string around the : characters and append the new lists into highlighted_poems_details.
+
 # 8.Great! Now we want to separate out all of the titles, the poets, and the publication dates into their own lists.
 # Create three new empty lists, titles, poets, and dates.
 
