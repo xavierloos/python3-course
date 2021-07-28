@@ -5,7 +5,6 @@
 # Start by splitting highlighted_poems at the commas and saving it to highlighted_poems_list.
 
 # 3.Print highlighted_poems_list, how does the structure of the data look now?
-
 # 4.Notice that there is inconsistent whitespace in highlighted_poems_list. Let’s clean that up.
 # Start by creating a new empty list, highlighted_poems_stripped.
 # Then, iterate through highlighted_poems_list using a for loop and for each poem strip away the whitespace and append it to your new list, highlighted_poems_stripped.
