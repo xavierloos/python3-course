@@ -4,6 +4,7 @@
 # 2.The information for each poem is separated by commas, and within this information is the title of the poem, the author, and the date of publication.
 # Start by splitting highlighted_poems at the commas and saving it to highlighted_poems_list.
 
+
 # 3.Print highlighted_poems_list, how does the structure of the data look now?
 
 # 4.Notice that there is inconsistent whitespace in highlighted_poems_list. Let’s clean that up.
