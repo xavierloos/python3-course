@@ -54,7 +54,8 @@ new_prices = [price - 5 for price in prices]
 
 print("New prices: ", new_prices)
 
-total_revenue = 0 
+total_revenue = 0
+
 for i in range(len(hairstyles)):
   total_revenue = prices[i] + last_week[i]
 print("Total Revenue: ", total_revenue)
