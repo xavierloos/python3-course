@@ -187,4 +187,6 @@ print(daily_transactions)
 daily_transactions_split = []
 
 for transaction in daily_transactions:
-  daily_transactions_split.append(transaction.split("-"))
+    daily_transactions_split.append(transaction.split("-"))
+
+print(daily_transactions_split)
