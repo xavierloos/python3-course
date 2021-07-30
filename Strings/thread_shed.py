@@ -221,3 +221,10 @@ print(total_sales)
 print(thread_sold)
 
 thread_sold_split = []
+
+for color in thread_sold:
+    if '&' in color[0]:
+        for color in color[0].split("&"):
+            thread_sold_split.append(color)
+    else:
+        thread_sold_split.append(color[0])
