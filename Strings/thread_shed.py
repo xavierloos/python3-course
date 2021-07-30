@@ -236,3 +236,6 @@ def color_count(color):
         if thread == color:
             count += 1
     return count
+
+
+print(color_count('white'))
