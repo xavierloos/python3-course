@@ -219,3 +219,5 @@ for sale in sales:
 print(total_sales)
 
 print(thread_sold)
+
+thread_sold_split = []
