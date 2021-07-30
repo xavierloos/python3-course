@@ -228,3 +228,11 @@ for color in thread_sold:
             thread_sold_split.append(color)
     else:
         thread_sold_split.append(color[0])
+
+
+def color_count(color):
+    count = 0
+    for thread in thread_sold_split:
+        if thread == color:
+            count += 1
+    return count
