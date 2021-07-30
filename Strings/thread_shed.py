@@ -217,3 +217,5 @@ for sale in sales:
     total_sales += float(sale[0].strip("$"))
 
 print(total_sales)
+
+print(thread_sold)
