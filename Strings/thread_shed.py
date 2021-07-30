@@ -212,3 +212,6 @@ print(sales)
 print(thread_sold)
 
 total_sales = 0
+
+for sale in sales:
+    total_sales += float(sale[0].strip("$"))
