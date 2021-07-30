@@ -210,3 +210,5 @@ for item in transactions_clean:
 print(customers)
 print(sales)
 print(thread_sold)
+
+total_sales = 0
