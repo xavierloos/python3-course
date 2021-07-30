@@ -206,3 +206,7 @@ for item in transactions_clean:
     customers.append(item[0])
     sales.append(item[1])
     thread_sold .append(item[2])
+
+print(customers)
+print(sales)
+print(thread_sold)
