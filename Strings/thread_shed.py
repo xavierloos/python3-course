@@ -190,3 +190,8 @@ for transaction in daily_transactions:
     daily_transactions_split.append(transaction.split("-"))
 
 print(daily_transactions_split)
+
+transactions_clean = []
+
+for transaction in daily_transactions_split:
+    transactions_clean.append([data.split() for data in transaction])
