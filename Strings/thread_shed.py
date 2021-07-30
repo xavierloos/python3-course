@@ -201,3 +201,8 @@ print(transactions_clean)
 customers = []
 sales = []
 thread_sold = []
+
+for item in transactions_clean:
+    customers.append(item[0])
+    sales.append(item[1])
+    thread_sold .append(item[2])
