@@ -239,3 +239,5 @@ def color_count(color):
 
 
 print(color_count('white'))
+
+colors = ['red', 'yellow', 'green', 'white', 'black', 'blue', 'purple']
