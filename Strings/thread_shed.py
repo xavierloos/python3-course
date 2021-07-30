@@ -183,3 +183,5 @@ daily_sales_replaced = daily_sales.replace(";,;", "-")
 daily_transactions = daily_sales_replaced.split(",")
 
 print(daily_transactions)
+
+daily_transactions_split = []
