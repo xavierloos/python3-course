@@ -12,3 +12,4 @@ def password_generator(first_name, last_name):
     return psswrd
 
 temp_password = password_generator(first_name, last_name)
+
