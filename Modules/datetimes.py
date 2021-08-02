@@ -28,3 +28,5 @@ bithday.month
 # 'Aug 02, 2021'
 
 # LEARNING PIPENV
+
+# exit() to finish the python terminal
