@@ -26,3 +26,5 @@ bithday.month
 # >>> date_string = datetime.strftime(datetime.now(), "%b %d, %Y")
 # >>> date_string
 # 'Aug 02, 2021'
+
+# LEARNING PIPENV
