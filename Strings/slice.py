@@ -6,6 +6,7 @@
 # Create a variable called temp_password by creating a slice out of the third through sixth letters of last_name.Your string should have a total of 4 characters.
 
 first_name = "Rodrigo"
+
 last_name = "Villanueva"
 new_account = last_name[:5]
 temp_password = last_name[2:6]
