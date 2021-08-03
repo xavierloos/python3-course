@@ -4,6 +4,7 @@
 # 2.Test your function on the first_name and last_name provided in script.py and save it to the variable new_account.
 
 first_name = "Julie"
+
 last_name = "Blevins"
 
 
