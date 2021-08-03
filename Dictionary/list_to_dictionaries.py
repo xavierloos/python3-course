@@ -3,6 +3,7 @@
 # 2. Create a dictionary called drinks_to_caffeine by using a list comprehension that goes through the zipped_drinks list and turns each pair into a key: value item.
 
 drinks = ["espresso", "chai", "decaf", "drip"]
+
 caffeine = [64, 40, 0, 120]
 
 zipped_drinks = zip(drinks, caffeine)
