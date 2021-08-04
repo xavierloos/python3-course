@@ -66,7 +66,12 @@ player_to_points = {}
 # 13. After the inner loop ends, set the current player value to be a key of player_to_points, with a value of player_points.
 
 for player, words in player_to_words.items():
-  player_points = 0
-  for word in words:
-    player_points += score_word(word)
-  player_to_points[player] = player_points
+    player_points = 0
+    for word in words:
+        player_points += score_word(word)
+    player_to_points[player] = player_points
+
+# 14.player_to_points should now contain the mapping of players to how many points they’ve scored. Print this out to see the current standings for this game!
+# If you’ve calculated correctly, wordNerd should be winning by 1 point.
+
+print(player_to_points)
