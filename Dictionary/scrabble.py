@@ -53,3 +53,7 @@ print(brownie_points)
 
 player_to_words = {"player1": ["BLUE", "TENNIS", "EXIT"],	"wordNerd": ["EARTH", "EYES", "MACHINE"],	"Lexi Con": [
     "ERASER", "BELLY", "HUSKY"],	"Prof Reader": ["ZAP", "COMA", "PERIOD"]}
+
+# 10. Create an empty dictionary called player_to_points.
+
+player_to_points = {}
