@@ -37,3 +37,10 @@ def score_word(word):
 
 
 brownie_points = score_word("BROWNIE")
+
+# 8.We expect the word BROWNIE to earn 15 points:
+# (B + R + O + W + N + I + E)
+# (3 + 1 + 1 + 4 + 4 + 1 + 1) = 15
+# Let’s print out brownie_points to make sure we got it right.
+
+print(brownie_points)
