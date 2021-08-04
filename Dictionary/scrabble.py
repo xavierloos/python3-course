@@ -57,3 +57,16 @@ player_to_words = {"player1": ["BLUE", "TENNIS", "EXIT"],	"wordNerd": ["EARTH", 
 # 10. Create an empty dictionary called player_to_points.
 
 player_to_points = {}
+
+# 11.Iterate through the items in player_to_words. Call each player player and each list of words words.
+# Within your loop, create a variable called player_points and set it to 0.
+
+# 12. Within the loop, create another loop that goes through each word in words and adds the value of score_word() with word as an input.
+
+# 13. After the inner loop ends, set the current player value to be a key of player_to_points, with a value of player_points.
+
+for player, words in player_to_words.items():
+  player_points = 0
+  for word in words:
+    player_points += score_word(word)
+  player_to_points[player] = player_points
