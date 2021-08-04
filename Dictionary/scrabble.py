@@ -8,3 +8,7 @@ points = [1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1,
           3, 4, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10]
 
 letter_to_points = {key: value for key, value in zip(letters, points)}
+
+# 2. Our letters list did not take into account blank tiles. Add an element to the letter_to_points dictionary that has a key of " " and a point value of 0.
+
+letter_to_points[" "] = 0
