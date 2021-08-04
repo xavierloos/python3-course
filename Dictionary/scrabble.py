@@ -32,3 +32,8 @@ def score_word(word):
             if letter == k:
                 point_total += v
     return point_total
+
+# 7. Let’s test this function! Create a variable called brownie_points and set it equal to the value returned by the score_word() function with an input of "BROWNIE".
+
+
+brownie_points = score_word("BROWNIE")
