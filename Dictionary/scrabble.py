@@ -44,3 +44,12 @@ brownie_points = score_word("BROWNIE")
 # Let’s print out brownie_points to make sure we got it right.
 
 print(brownie_points)
+
+# 9.Create a dictionary called player_to_words that maps players to a list of the words they have played. This table represents the data to transcribe into your dictionary:
+# player1	   wordNerd	    Lexi Con	    Prof Reader
+# BLUE	     EARTH	      ERASER	      ZAP
+# TENNIS	   EYES	        BELLY	        COMA
+# EXIT	     MACHINE	    HUSKY	        PERIOD
+
+player_to_words = {"player1": ["BLUE", "TENNIS", "EXIT"],	"wordNerd": ["EARTH", "EYES", "MACHINE"],	"Lexi Con": [
+    "ERASER", "BELLY", "HUSKY"],	"Prof Reader": ["ZAP", "COMA", "PERIOD"]}
