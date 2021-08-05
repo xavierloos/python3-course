@@ -1,7 +1,14 @@
-# 1. CSV files are just plain text files!
-# Open logger.csv using our standard with syntax, saving the file object in the temporary variable log_csv_file.
+# 1.Import the csv module.
 
-# 2.Print out the contents of logger.csv by calling .read() on the file. Notice that it is parsed as a string.
+# 2.Open up the file logger_csv.csv in the temporary variable cool_csv_file.
 
-with open("logger.csv") as log_csv_file:
-  print(log_csv_file.read())
+# 3.Using csv.DictReader read the contents of logger_csv_file into a new variable called logger_csv_dict.
+
+# 4.logger_csv.csv includes a Name of every person in the CSV.
+# For each row in logger_csv_dict print out that row’s "Name".
+
+import csv
+with open("logger.csv") as logger_csv_file:
+    logger_csv_dict = csv.DictReader(logger_csv_file)
+    for row in logger_csv_dict:
+        print(row['Name'])
