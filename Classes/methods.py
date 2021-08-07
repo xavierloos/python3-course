@@ -14,6 +14,5 @@ class Dog:
         print("Dogs experience {} years for every 1 human year.".format(
             self.dog_time_dilation))
 
-
 pipi_pitbull = Dog()
 pipi_pitbull.time_explanation()
