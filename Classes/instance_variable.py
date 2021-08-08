@@ -7,7 +7,6 @@ class Store:
 
 
 alternative_rocks = Store()
-
 isabelles_ices = Store()
 
 alternative_rocks.store_name = "Alternative Rocks"
