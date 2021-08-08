@@ -9,7 +9,6 @@ class Rules:
 
 # ANOTHER EXAMPLE
 
-
 class Dog:
     dog_time_dilation = 7
 
