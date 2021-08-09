@@ -18,6 +18,8 @@
 # .add_grade() should verify that grade is of type Grade and if so, add it to the Student‘s .grades.
 # If grade isn’t an instance of Grade then .add_grade() should do nothing.
 
+# 8.Create a new Grade with a score of 100 and add it to pieter‘s .grades attribute using .add_grade().
+
 class Student():
     def __init__(self, name, year):
         self.name = name
@@ -39,3 +41,6 @@ class Grade():
 
     def __init__(self, score):
         self.score = score
+
+
+pieter.add_grade(Grade(100))
