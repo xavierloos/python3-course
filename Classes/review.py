@@ -14,11 +14,19 @@
 
 # 6.In the body of the constructor for Student, declare self.grades as an empty list.
 
+# 7.Add an .add_grade() method to Student that takes a parameter, grade.
+# .add_grade() should verify that grade is of type Grade and if so, add it to the Student‘s .grades.
+# If grade isn’t an instance of Grade then .add_grade() should do nothing.
+
 class Student():
     def __init__(self, name, year):
         self.name = name
         self.year = year
         self.grades = []
+
+    def add_grade(self, grade):
+        if type(grade) is Grade:
+            self.grades.append(grade)
 
 
 roger = Student("Roger van der Weyden", 10)
