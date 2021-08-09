@@ -8,6 +8,8 @@
 # Pieter Bruegel the Elder, year 8
 # Save them into the variables roger, sandro, and pieter.
 
+# 4.Create a Grade class, with minimum_passing as an attribute set to 65.
+
 class Student():
     def __init__(self, name, year):
         self.name = name
@@ -17,3 +19,7 @@ class Student():
 roger = Student("Roger van der Weyden", 10)
 sandro = Student("Sandro Botticelli", 12)
 pieter = Student("Pieter Bruegel the Elder", 8)
+
+
+class Grade():
+    minimum_passing = 65
