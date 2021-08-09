@@ -10,6 +10,8 @@
 
 # 4.Create a Grade class, with minimum_passing as an attribute set to 65.
 
+# 5.Give Grade a constructor. Take in a parameter score and assign it to self.score.
+
 class Student():
     def __init__(self, name, year):
         self.name = name
@@ -23,3 +25,6 @@ pieter = Student("Pieter Bruegel the Elder", 8)
 
 class Grade():
     minimum_passing = 65
+
+    def __init__(self, score):
+        self.score = score
