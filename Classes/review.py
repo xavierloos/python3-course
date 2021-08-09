@@ -12,10 +12,13 @@
 
 # 5.Give Grade a constructor. Take in a parameter score and assign it to self.score.
 
+# 6.In the body of the constructor for Student, declare self.grades as an empty list.
+
 class Student():
     def __init__(self, name, year):
         self.name = name
         self.year = year
+        self.grades = []
 
 
 roger = Student("Roger van der Weyden", 10)
