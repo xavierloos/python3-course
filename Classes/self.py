@@ -26,3 +26,9 @@ round_room = Circle(11460)
 
 # 3.Define a new method circumference for your circle object that takes only one argument, self, and returns the circumference of a circle with the given radius by this formula:
 # circumference = 2 * pi * radius
+
+# 4.Print out the circumferences of medium_pizza, teaching_table, and round_room.
+
+print(medium_pizza.circumference())
+print(teaching_table.circumference())
+print(round_room.circumference())
