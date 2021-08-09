@@ -10,6 +10,10 @@ class Circle:
         # Add assignment for self.radius here:
         self.radius = diameter / 2
 
+    def circumference(self):
+        circumference = 2 * self.pi * self.radius
+        return circumference
+
 
 # 2.Define three Circles with three different diameters.
 # A medium pizza, medium_pizza, that is 12 inches across.
@@ -19,3 +23,6 @@ class Circle:
 medium_pizza = Circle(12)
 teaching_table = Circle(36)
 round_room = Circle(11460)
+
+# 3.Define a new method circumference for your circle object that takes only one argument, self, and returns the circumference of a circle with the given radius by this formula:
+# circumference = 2 * pi * radius
