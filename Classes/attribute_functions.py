@@ -2,7 +2,12 @@
 # For every element in the list, check if the element has the attribute count using the hasattr() function. If so, print the following line of code:
 # print(str(type(element)) + " has the count attribute!")
 
+# 2.Now let’s add an else statement for the elements that do not have the attribute count. In this else statement add the following line of code:
+# print(str(type(element)) + " does not have the count attribute :(")
+
 can_we_count_it = [{'s': False}, "sassafrass", 18, ["a", "c", "s", "d", "s"]]
 for element in can_we_count_it:
     if hasattr(element, "count"):
         print(str(type(element)) + " has the count attribute!")
+    else:
+        print(str(type(element)) + " does not have the count attribute :(")
