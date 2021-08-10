@@ -89,3 +89,6 @@ early_bird_menu = {'salumeria plate': 8.00, 'salad and breadsticks (serves 2, no
 
 dinner_menu = {'crostini with eggplant caponata': 13.00, 'ceaser salad': 16.00, 'pizza with quattro formaggi': 11.00,
                'duck ragu': 19.50, 'mushroom ravioli (vegan)': 13.50, 'coffee': 2.00, 'espresso': 3.00}
+
+kids_menu = {'chicken nuggets': 6.50,
+             'fusilli with wild mushrooms': 12.00, 'apple juice': 3.00}
