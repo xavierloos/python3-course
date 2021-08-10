@@ -123,6 +123,13 @@ class Franchise:
     def __repr__(self):
         return "{address}".format(address=self.address)
 
+    def available_menus(self, time):
+        available_menu = []
+        for menu in self.menus:
+            if time >= menu.start_time and time <= self.end_menu:
+                available_menu.append(menu)
+        return available_menu
+
 
 menus = [brunch_menu, early_bird_menu, dinner_menu, kids_menu]
 
