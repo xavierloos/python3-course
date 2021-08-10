@@ -113,3 +113,6 @@ early_bird = Menu("Early Bird", early_bird_menu, 1500, 1800)
 
 print(early_bird.calculate_bill(
     ['salumeria plate', 'mushroom ravioli (vegan)']))
+
+
+class Franchise:
