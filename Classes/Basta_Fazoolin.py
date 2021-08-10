@@ -108,3 +108,8 @@ brunch = Menu("Brunch", brunch_menu, 1100, 1600)
 print(brunch)
 
 print(brunch.calculate_bill(['pancakes', 'home fries',  'coffee']))
+
+early_bird = Menu("Early Bird", early_bird_menu, 1500, 1800)
+
+print(early_bird.calculate_bill(
+    ['salumeria plate', 'mushroom ravioli (vegan)']))
