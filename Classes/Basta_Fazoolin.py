@@ -106,3 +106,5 @@ kids_menu = {'chicken nuggets': 6.50,
 brunch = Menu("Brunch", brunch_menu, 1100, 1600)
 
 print(brunch)
+
+print(brunch.calculate_bill(['pancakes', 'home fries',  'coffee']))
