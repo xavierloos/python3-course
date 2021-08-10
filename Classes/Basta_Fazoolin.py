@@ -95,3 +95,7 @@ dinner_menu = {'crostini with eggplant caponata': 13.00, 'ceaser salad': 16.00, 
 
 kids_menu = {'chicken nuggets': 6.50,
              'fusilli with wild mushrooms': 12.00, 'apple juice': 3.00}
+
+brunch = Menu("Brunch", brunch_menu, 1100, 1600)
+
+print(brunch)
