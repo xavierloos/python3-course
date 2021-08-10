@@ -116,3 +116,6 @@ print(early_bird.calculate_bill(
 
 
 class Franchise:
+    def __init__(self, address, menus):
+        self.address = address
+        self.menus = menus
