@@ -120,7 +120,11 @@ class Franchise:
         self.address = address
         self.menus = menus
 
+    def __repr__(self):
+        return "{address}".format(address=self.address)
 
-menus = [brunch, early_bird, dinner, kids]
+
+menus = [brunch_menu, early_bird_menu, dinner_menu, kids_menu]
+
 flagship_store = Franchise("1232 West End Road", menus)
 new_installment = Franchise("12 East Mulberry Street", menus)
