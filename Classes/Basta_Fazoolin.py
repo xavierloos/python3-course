@@ -74,3 +74,8 @@
 # 25.Congrats! You created a system of classes that help structure your code and perform all business requirements you need. Whenever we need a new feature we’ll have the well-organized code required to make developing and shipping it easy.
 
 class Menu:
+    def __init__(self, name, items, start_time, end_time):
+        self.name = name
+        self.items = items
+        self.start_time = start_time
+        self.end_time = end_time
