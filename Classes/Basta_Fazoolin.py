@@ -119,3 +119,8 @@ class Franchise:
     def __init__(self, address, menus):
         self.address = address
         self.menus = menus
+
+
+menus = [brunch, early_bird, dinner, kids]
+flagship_store = Franchise("1232 West End Road", menus)
+new_installment = Franchise("12 East Mulberry Street", menus)
