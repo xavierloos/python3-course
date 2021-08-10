@@ -126,7 +126,7 @@ class Franchise:
     def available_menus(self, time):
         available_menu = []
         for menu in self.menus:
-            if time >= menu.start_time and time <= menu.end_menu:
+            if time >= menu.start_time and time <= menu.end_time:
                 available_menu.append(menu)
         return available_menu
 
@@ -138,3 +138,6 @@ menus = [brunch, early_bird, dinner, kids]
 
 flagship_store = Franchise("1232 West End Road", menus)
 new_installment = Franchise("12 East Mulberry Street", menus)
+
+print(flagship_store.available_menus(1200))
+print(flagship_store.available_menus(1700))
