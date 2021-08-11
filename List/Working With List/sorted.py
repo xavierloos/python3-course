@@ -31,3 +31,26 @@ print(substring_between_letters("apple", "p", "e"))
 # should print "pl"
 print(substring_between_letters("apple", "p", "c"))
 # should print "apple"
+
+# 5. X Length
+# Let’s use the split method in a different way. We need a new function that is able to accept two inputs: one for a sentence and another for a number. The function returns True if every single word in the sentence has a length greater than or equal to the number provided. These are the steps:
+# Define the function to accept two parameters, one string, and one number
+# Split up the sentence into an array of words
+# Loop through the words. If the length of any of the words is less than the provided number return False
+# If we made it through the loop without returning False then return True
+
+
+def x_length_words(sentence, x):
+    sentence = sentence.split()
+    for word in sentence:
+        if len(word) < x:
+            return False
+    return True
+    # return sentence
+
+
+# Uncomment these function calls to test your tip function:
+print(x_length_words("i like apples", 2))
+# should print False
+print(x_length_words("he likes apples", 2))
+# should print True
