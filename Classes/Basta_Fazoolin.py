@@ -147,3 +147,8 @@ class Business:
     def __init__(self, name, franchises):
         self.name = name
         self.frachises = franchises
+
+
+franchises = [flagship_store, new_installment]
+
+basta_business = Business("Basta Fazoolin' with my Heart", franchises)
