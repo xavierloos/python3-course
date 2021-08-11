@@ -141,3 +141,6 @@ new_installment = Franchise("12 East Mulberry Street", menus)
 
 print(flagship_store.available_menus(1200))
 print(flagship_store.available_menus(1700))
+
+
+class Business:
