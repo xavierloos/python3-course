@@ -159,3 +159,5 @@ arepas_menu = {'arepa pabellon': 7.00, 'pernil arepa': 8.50,
 arepas_place = Franchise("189 Fitzgerald Avenue", arepas_menu)
 
 arepa_business = Business("Take a' Arepa", arepas_place)
+
+print(arepas_place)
