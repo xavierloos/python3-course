@@ -144,3 +144,6 @@ print(flagship_store.available_menus(1700))
 
 
 class Business:
+    def __init__(self, name, franchises):
+        self.name = name
+        self.frachises = franchises
