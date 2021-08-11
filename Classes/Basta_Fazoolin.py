@@ -152,3 +152,6 @@ class Business:
 franchises = [flagship_store, new_installment]
 
 basta_business = Business("Basta Fazoolin' with my Heart", franchises)
+
+arepas_menu = {'arepa pabellon': 7.00, 'pernil arepa': 8.50,
+               'guayanes arepa': 8.00, 'jamon arepa': 7.50}
