@@ -49,3 +49,36 @@ robot_1.adjust_sensor(20)
 print(robot_1.motor_speed)
 print(robot_1.direction)
 print(robot_1.sensor_range)
+
+# 3. Enhanced Constructor
+# It can be tedious manually setting the values for each instance variable after we have created an object from the DriveBot class. We can enhance our constructor to automatically assign the values we provide to the instance variables. Instead of taking zero parameters, we are going to make the constructor take three parameters. Here is what we need to do:
+# Modify the constructor to take three parameters (in addition to self): one for motor_speed, one for direction, and one for sensor_range
+# For the first parameter, make the default value 0
+# For the second parameter, make the default value 180
+# For the third parameter, make the default value 10
+# Within the constructor, replace the instance variables with the variables from the input parameters
+
+
+class DriveBot:
+    def __init__(self, motor_speed=0, direction=180, sensor_range=10):
+        self.motor_speed = motor_speed
+        self.direction = direction
+        self.sensor_range = sensor_range
+
+    def control_bot(self, new_speed, new_direction):
+        self.motor_speed = new_speed
+        self.direction = new_direction
+
+    def adjust_sensor(self, new_sensor_range):
+        self.sensor_range = new_sensor_range
+
+
+robot_1 = DriveBot()
+robot_1.motor_speed = 5
+robot_1.direction = 90
+robot_1.sensor_range = 10
+
+robot_2 = DriveBot(35, 75, 25)
+print(robot_2.motor_speed)
+print(robot_2.direction)
+print(robot_2.sensor_range)
