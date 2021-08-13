@@ -40,7 +40,6 @@ tables = {
     7: [],
 }
 print(tables)
-
 # Write your code below:
 
 def assign_table(table_number, name, vip_status=False):
