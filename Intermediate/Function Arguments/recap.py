@@ -43,7 +43,6 @@ print(tables)
 
 # Write your code below:
 
-
 def assign_table(table_number, name, vip_status=False):
     tables[table_number] = [name, vip_status]
 
