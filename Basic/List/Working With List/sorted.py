@@ -144,7 +144,6 @@ def make_spoonerism(word1, word2):
     word_2 = word1[0] + word2[1:]
     return word_1 + " " + word_2
 
-
 # Uncomment these function calls to test your function:
 print(make_spoonerism("Codecademy", "Learn"))
 # should print Lodecademy Cearn
