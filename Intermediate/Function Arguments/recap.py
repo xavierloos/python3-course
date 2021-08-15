@@ -50,6 +50,7 @@ def assign_table(table_number, name, vip_status=False):
 assign_table(6, 'Yoni', False)
 
 print(tables)
+
 assign_table(table_number=3, name='Martha', vip_status=True)
 print(tables)
 assign_table(4, 'Karla')
