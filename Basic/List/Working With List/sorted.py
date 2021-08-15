@@ -139,10 +139,12 @@ print(reverse_string(""))
 # Append the first character of the first word to the remaining characters of the second word.
 # Return the result
 
+
 def make_spoonerism(word1, word2):
     word_1 = word2[0] + word1[1:]
     word_2 = word1[0] + word2[1:]
     return word_1 + " " + word_2
+
 
 # Uncomment these function calls to test your function:
 print(make_spoonerism("Codecademy", "Learn"))
