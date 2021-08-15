@@ -56,4 +56,5 @@ assign_table(table_number=3, name='Martha', vip_status=True)
 print(tables)
 
 assign_table(4, 'Karla')
+
 print(tables)
