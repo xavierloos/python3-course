@@ -25,7 +25,8 @@ from test import test_function
 
 
 def calculate_shipping_cost(from_coords, to_coords, shipping_type):
-    pass
+    from_lat, from_long = from_cords
+    to_lat, to_long = to_coords
 
 # Test the function by calling
 # test_function(calculate_shipping_cost)
