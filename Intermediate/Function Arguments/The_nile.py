@@ -24,7 +24,7 @@ from test import test_function
 # Define calculate_shipping_cost() here:
 
 
-def calculate_shipping_cost(from_coords, to_coords, shipping_type):
+def calculate_shipping_cost(from_coords, to_coords, shipping_type = "Overnight"):
     from_lat, from_long = from_cords
     to_lat, to_long = to_coords
     distance = get_distance(*from_coords, *to_coods)
