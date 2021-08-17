@@ -46,3 +46,59 @@ def assign_food_items(**order_items):
 
 # Example Call
 assign_food_items(food='Pancakes, Poached Egg', drinks='Water')
+
+# 1.In the last exercise, we saw how using ** allowed us to capture different food items that a table will order. In the next few checkpoints, we will finish implementing the functionality of our assign_food_items() function.
+# Take some time to get reacquainted with the program. Note the changes in the assign_food_items() function.
+# Run the code to move on!
+
+# 2.Unfortunately, when we originally implemented assign_food_items we did not assign the values we capture into our tables dictionary.
+# Adjust the function definition of assign_food_items():
+# Add a positional parameter called table_number followed by the **order_items parameter we already defined.
+# Uncomment the 2 lines inside the function.
+# Adding the parameter and uncommenting the lines will now allow us to assign the food to a specific table.
+
+# 3.Great! Now that we have the base functionality set up, let’s give it a test run. Luckily a new customer named Douglas just came in and is ready to place an order.
+# Under print('\n --- tables after update --- \n'), call the assign_food_items() function with the following arguments:
+# A positional argument table_number with the value 2
+# A keyword argument food with the value 'Seabass, Gnocchi, Pizza'
+# A keyword argument drinks with the value 'Margarita, Water'
+# Print tables to see the change!
+
+tables = {
+    1: {
+        'name': 'Chioma',
+        'vip_status': False,
+        'order': {
+            'drinks': 'Orange Juice, Apple Juice',
+            'food_items': 'Pancakes'
+        }
+    },
+    2: {},
+    3: {},
+    4: {},
+    5: {},
+    6: {},
+    7: {},
+}
+
+
+def assign_table(table_number, name, vip_status=False):
+    tables[table_number]['name'] = name
+    tables[table_number]['vip_status'] = vip_status
+    tables[table_number]['order'] = {}
+
+
+assign_table(2, 'Douglas', True)
+print('--- tables with Douglas --- \n', tables)
+
+
+def assign_food_items(table_number, **order_items):
+    food = order_items.get('food')
+    drinks = order_items.get('drinks')
+    tables[table_number]['order']['food_items'] = food
+    tables[table_number]['order']['drinks'] = drinks
+
+
+print('\n --- tables after update --- \n')
+assign_food_items(2, food='Seabass, Gnocchi, Pizza', drinks='Margarita, Water')
+print(tables)
