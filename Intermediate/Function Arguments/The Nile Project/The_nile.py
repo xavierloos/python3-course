@@ -83,12 +83,13 @@ test_function(calculate_shipping_cost)
 def calculate_driver_cost(distance, *drivers):
     cheapest_driver = None
     cheapest_driver_price = None
+    for driver in drivers:
+        pass
 
 # Test the function by calling
 # test_function(calculate_driver_cost)
 
 # Define calculate_money_made() here
-
 
 # Test the function by calling
 # test_function(calculate_money_made)
