@@ -103,5 +103,7 @@ test_function(calculate_driver_cost)
 
 def calculate_money_made(**trips):
     total_money_made = 0
+    for trip_id, trip in trips.items():
+        pass
 # Test the function by calling
 # test_function(calculate_money_made)
