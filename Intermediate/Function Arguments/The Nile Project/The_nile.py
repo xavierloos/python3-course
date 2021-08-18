@@ -80,6 +80,9 @@ test_function(calculate_shipping_cost)
 # Define calculate_driver_cost() here
 
 
+def calculate_driver_cost(distance, *drivers):
+    pass
+
 # Test the function by calling
 # test_function(calculate_driver_cost)
 
