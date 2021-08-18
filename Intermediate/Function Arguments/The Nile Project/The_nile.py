@@ -105,5 +105,6 @@ def calculate_money_made(**trips):
     total_money_made = 0
     for trip_id, trip in trips.items():
         trip_revenue = trip.cost - trip.driver.cost
+        total_money_made += trip_revenue
 # Test the function by calling
 # test_function(calculate_money_made)
