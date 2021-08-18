@@ -92,6 +92,7 @@ def calculate_driver_cost(distance, *drivers):
         elif price_for_driver < cheapest_driver_price:
             cheapest_driver = driver
             cheapest_driver_price = price_for_driver
+    return cheapest_driver_price, cheapest_driver
 # Test the function by calling
 # test_function(calculate_driver_cost)
 
