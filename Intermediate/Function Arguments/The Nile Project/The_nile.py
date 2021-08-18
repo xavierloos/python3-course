@@ -85,6 +85,7 @@ def calculate_driver_cost(distance, *drivers):
     cheapest_driver_price = None
     for driver in drivers:
         driver_time = driver.speed * distance
+        price_for_driver = driver.salary * driver_time
 
 # Test the function by calling
 # test_function(calculate_driver_cost)
