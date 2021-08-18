@@ -107,5 +107,7 @@ def calculate_money_made(**trips):
         trip_revenue = trip.cost - trip.driver.cost
         total_money_made += trip_revenue
     return total_money_made
+
+
 # Test the function by calling
-# test_function(calculate_money_made)
+test_function(calculate_money_made)
