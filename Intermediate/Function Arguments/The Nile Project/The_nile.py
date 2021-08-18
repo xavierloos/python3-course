@@ -102,6 +102,6 @@ test_function(calculate_driver_cost)
 
 
 def calculate_money_made(**trips):
-    pass
+    total_money_made = 0
 # Test the function by calling
 # test_function(calculate_money_made)
