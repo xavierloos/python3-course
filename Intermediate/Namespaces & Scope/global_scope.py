@@ -11,7 +11,6 @@ paint_gallons_avaliable = {
     'yellow': 33
 }
 
-
 def print_avaliable(color):
     print('There are ' +
           str(paint_gallons_avaliable[color]) + ' gallons avaliable of ' + color + ' paint.')
