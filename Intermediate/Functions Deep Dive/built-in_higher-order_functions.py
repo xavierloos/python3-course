@@ -26,6 +26,7 @@ books = [["Burgess", 1985], ["Orwell", "Nineteen Eighty-four"], ["Murakami", "1Q
          ["Orwell", 1984], ["Burgess", "Nineteen Eighty-five"], ["Murakami", 1985]]
 
 # Your code below:
+
 # assign the result of your filter function to the variable  string_titles
 
 string_titles = filter(lambda value: type(value[1]) == str, books)
