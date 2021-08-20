@@ -1,6 +1,7 @@
 # Say we stored our course grades in a list, but some of the grades were on a four-point scale and others were on a 100-point scale. To get all the grades on the same scale, try using a lambda function with the map() function to multiply just the grades on the four-point scale by 25 to get all of the grades on the same 100-point-scale.
 
 from functools import reduce
+
 grade_list = [3.5, 3.7, 2.6, 95, 87]
 
 # Your code below:
