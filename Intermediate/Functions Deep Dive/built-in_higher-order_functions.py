@@ -49,5 +49,4 @@ letters = ['r', 'e', 'd', 'u', 'c', 'e']
 word = reduce(lambda x, y: x+y, letters)
 
 # print word
-
 print(word)
