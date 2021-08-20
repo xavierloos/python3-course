@@ -32,6 +32,7 @@ books = [["Burgess", 1985], ["Orwell", "Nineteen Eighty-four"], ["Murakami", "1Q
 string_titles = filter(lambda value: type(value[1]) == str, books)
 
 # convert your filter object to a list stored in the variable string_titles_list
+
 string_titles_list = list(string_titles)
 
 # print the list string_titles_list
