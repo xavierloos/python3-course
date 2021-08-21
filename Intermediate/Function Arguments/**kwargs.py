@@ -91,6 +91,7 @@ def assign_table(table_number, name, vip_status=False):
 
 
 assign_table(2, 'Douglas', True)
+
 print('--- tables with Douglas --- \n', tables)
 
 
