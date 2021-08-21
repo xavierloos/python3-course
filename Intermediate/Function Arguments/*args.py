@@ -67,4 +67,5 @@ def assign_and_print_order(table_number, *order_items):
 assign_table(2, 'Arwa', True)
 
 assign_and_print_order(2, 'Steak', 'Seabass', 'Wine Bottle')
+
 print(tables)
