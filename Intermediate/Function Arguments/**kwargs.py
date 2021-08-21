@@ -37,6 +37,7 @@ print(tables)
 
 
 # Write your code below:
+
 def assign_food_items(**order_items):
     print(order_items)
     food = order_items.get("food")
