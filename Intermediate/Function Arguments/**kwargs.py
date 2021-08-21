@@ -103,5 +103,6 @@ def assign_food_items(table_number, **order_items):
 
 
 print('\n --- tables after update --- \n')
+
 assign_food_items(2, food='Seabass, Gnocchi, Pizza', drinks='Margarita, Water')
 print(tables)
