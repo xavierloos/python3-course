@@ -2,7 +2,6 @@
 
 from functools import reduce
 grade_list = [3.5, 3.7, 2.6, 95, 87]
-
 # Your code below:
 
 # assign the result of your map function to the variable grades_100scale
