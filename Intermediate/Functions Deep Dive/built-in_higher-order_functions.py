@@ -9,7 +9,6 @@ grades_100scale = map(lambda grade: grade*25 if grade <=
 # convert grades_100scale to a list and save it as updated_grade_list
 updated_grade_list = list(grades_100scale)
 # print updated_grade_list
-
 print(updated_grade_list)
 
 
