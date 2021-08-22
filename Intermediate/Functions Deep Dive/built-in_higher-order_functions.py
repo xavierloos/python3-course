@@ -10,7 +10,6 @@ grades_100scale = map(lambda grade: grade*25 if grade <=
 updated_grade_list = list(grades_100scale)
 # print updated_grade_list
 
-
 print(updated_grade_list)
 
 
