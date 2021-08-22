@@ -9,9 +9,10 @@ grade_list = [3.5, 3.7, 2.6, 95, 87]
 
 grades_100scale = map(lambda grade: grade*25 if grade <=
                       4.0 else grade, grade_list)
-                      
+
 # convert grades_100scale to a list and save it as updated_grade_list
 updated_grade_list = list(grades_100scale)
+
 # print updated_grade_list
 print(updated_grade_list)
 # We were given a list of lists, where each sublist holds the title of a famous book that has a year as its title and the last name of the author that wrote the book. Unfortunately, when this list was made, each of the books was accidentally entered twice—once with the title as a numeric value and once with the title as a string. Use the filter() function to deduplicate the list and keep only the sublists that have the book title stored as a string:
